@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container-0 {
+    width: 70%;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+
+#ask {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(120, 199, 172, 0.886);
+    width: 30%;
+    height: 330px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#ask p {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(4, 60, 4);
+    padding: 0 20px;
+    text-align: center;
+}
+
+#select-pose {
+    box-sizing: border-box;
+    width: 70%;
+    height: 330px;
+    float: left;
+    padding-left: 40px;
+}
+
+.column-1 img {
+    display: block;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0px 1px 3px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-2 img {
+    display: block;
+    border-radius: 10px;
+    width: 47%;
+    box-shadow: 0px 1px 3px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#select-pose p {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.628);
+    font-size: 15px;
+    text-align: center;
+}
+
+.column-1 {
+    float: left;
+    width: 33.33%;
+    padding: 0;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#container-0::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.178);
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.64);
+    padding: 10px;
+}
