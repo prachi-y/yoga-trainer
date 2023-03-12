@@ -61,26 +61,31 @@ def index():
 
 @app.route('/downward-dog')
 def align_dog():
+    global correct
     correct = 'Downward Dog Pose'
     return render_template('downward-dog.html')
 
 @app.route('/warrior')
 def align_warrior():
+    global correct
     correct = 'Warrior-II Pose'
     return render_template('warrior.html')
 
 @app.route('/goddess')
 def align_goddess():
+    global correct
     correct = 'Goddess Pose'
     return render_template('goddess.html')
 
 @app.route('/plank')
 def align_plank():
+    global correct
     correct = 'Plank Pose'
     return render_template('plank.html')
 
 @app.route('/tree')
 def align_tree():
+    global correct
     correct = 'Tree Pose'
     return render_template('tree.html')
 
